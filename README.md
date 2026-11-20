@@ -210,6 +210,14 @@ dm_toolkit/
 └── README.md
 ```
 
+## Roadmap
+
+The next releases focus on reducing interruptions during live Roll20 sessions. The [original GM review](https://github.com/0xguy07/dm_toolkit/issues/1) informs the priorities below.
+
+1. **Preserve existing initiative.** Use the current Roll20 tracker and add selected NPCs while keeping player rolls, custom entries, and the current turn. Verify the workflow with native Roll20 and Beyond20 rolls in one live encounter. [Milestone 1](https://github.com/0xguy07/dm_toolkit/milestone/1)
+2. **Make condition lookup and automation quieter.** Provide private, edition-labeled condition rules with an explicit share action. Keep timers and markers optional, and preserve unrelated markers. [Milestone 2](https://github.com/0xguy07/dm_toolkit/milestone/2)
+3. **Catch setup problems before play.** Show where each NPC's initiative modifier came from, flag missing HP data, and document tested Roll20 sheet and Beyond20 combinations. [Milestone 3](https://github.com/0xguy07/dm_toolkit/milestone/3)
+
 ## Development
 
 This project was built collaboratively with [Claude](https://claude.ai) as an exercise in:
